@@ -53,7 +53,7 @@ try {
 app.use("/api/v1/course", courseRoute);
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1/admin", adminRoute);
-app.use("/api/payment", paymentRoutes);
+app.use("/api/v1/payment", paymentRoutes);
 app.use("/api/v1/order", orderRoute);
 
 // Cloudinary configuration code
