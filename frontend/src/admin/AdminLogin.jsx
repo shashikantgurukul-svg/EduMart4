@@ -3,6 +3,7 @@ import logo from "../../public/logo.webp";
 import { Link, useNavigate} from "react-router-dom";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { Backend_URL } from "../utils/utils";
 
 function AdminLogin() {
    console.log("change detected");
@@ -19,7 +20,7 @@ function AdminLogin() {
 
     try {
       const response = await axios.post(
-       "http://localhost:4002/api/v1/admin/login",
+        `${Backend_URL}/admin/login`,
         {
           
           email,
