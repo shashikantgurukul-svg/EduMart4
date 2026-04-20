@@ -5,7 +5,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 
 function AdminLogin() {
-   
+   console.log("change detected");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
