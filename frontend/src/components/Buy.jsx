@@ -46,7 +46,7 @@ function Buy() {
 
 
       const { data: order } = await axios.post(
-        "http://localhost:4002/api/payment/create-order",
+        `${Backend_URL}/payment/create-order`,
         { courseId }
       );
 
