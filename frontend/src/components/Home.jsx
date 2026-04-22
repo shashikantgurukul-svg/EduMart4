@@ -104,7 +104,7 @@ function Home() {
               className="w-7 h-7 md:w-10 md:h-10 rounded-full"
             />
             <h1 className="md:text-2xl text-orange-500 font-bold">
-              CourseHaven
+              EduMart
             </h1>
           </div>
           <div className="space-x-4">
@@ -137,7 +137,7 @@ function Home() {
         {/* Main section */}
         <section className="text-center py-20">
           <h1 className="text-4xl font-semibold text-orange-500">
-            Edumart
+            Courses Available
           </h1>
 
           <br />
