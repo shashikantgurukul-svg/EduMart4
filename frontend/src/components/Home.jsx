@@ -137,7 +137,7 @@ function Home() {
         {/* Main section */}
         <section className="text-center py-20">
           <h1 className="text-4xl font-semibold text-orange-500">
-            CourseHaven
+            Edumart
           </h1>
 
           <br />
@@ -217,7 +217,7 @@ function Home() {
               <div className="flex items-center space-x-2">
                 <img src={logo} alt="" className="w-10 h-10 rounded-full" />
                 <h1 className="text-2xl text-orange-500 font-bold">
-                  CourseHaven
+                  EduMart
                 </h1>
               </div>
               <div className="mt-3 ml-2 md:ml-8">
